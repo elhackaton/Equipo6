@@ -26,5 +26,8 @@ Especificaciones Técnicas
 * SQLite
 * Web Scraper en PHP.
 
+Screenshots
+-----------
+
 Licencia
 ---------
