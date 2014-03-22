@@ -1,28 +1,34 @@
-E-free
+Carrot
 ======
 
 Componentes del Equipo
 ---------------------
 
-+ Pedro Mármol Pérez (Contenidos)
-+ Liles Hernández (Diseñadora)
-+ Juanjo Vega Gea (Desarrollador)
-+ José Juan Sánchez Hernández (Desarrolador)
+* Pedro Mármol Pérez (Contenidos)
+* Liles Hernández (Diseñadora)
+* Juanjo Vega Gea (Desarrollador)
+* José Juan Sánchez Hernández (Desarrolador)
 
 Descripción
 -------------
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Fuentes de datos utilizadas:
+* [E-Aditivos](http://www.e-aditivos.com). Lista de aditivos nocivos en los alimentos.
+* [Ecocosas](http://ecocosas.com/salud-natural/conservantes-colorantes-aditivos-edulcorantes/). Listado de conservantes, colorantes, aditivos y edulcorantes.
 
 Estado del desarrollo actual
 ----------------------------
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Futuro:
+* Integrar productos que no están en la base de datos.
 
 Especificaciones Técnicas
 --------------------------
-+ Lenguajes de programación utilizados
-+ Sistema de bases de datos
-+ Etc...
+* Java
+* SQLite
+* Web Scraper en PHP.
+
+Screenshots
+-----------
 
 Licencia
 ---------
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
