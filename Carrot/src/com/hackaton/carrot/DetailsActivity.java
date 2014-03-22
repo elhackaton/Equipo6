@@ -1,7 +1,5 @@
 package com.hackaton.carrot;
 
-import com.hackaton.carrot.R;
-
 import android.os.Bundle;
 import android.widget.TextView;
 
