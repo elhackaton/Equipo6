@@ -18,7 +18,8 @@ Fuentes de datos utilizadas:
 Estado del desarrollo actual
 ----------------------------
 
-
+Futuro:
+* Integrar productos que no están en la base de datos.
 
 Especificaciones Técnicas
 --------------------------
