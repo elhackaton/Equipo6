@@ -18,6 +18,7 @@ package com.google.zxing.client.android.common.executor;
 
 import android.annotation.TargetApi;
 import android.os.AsyncTask;
+import android.os.Build;
 
 /**
  * On Honeycomb and later, {@link AsyncTask} returns to serial execution by default which is undesirable.
@@ -27,8 +28,12 @@ import android.os.AsyncTask;
 public final class HoneycombAsyncTaskExecInterface implements AsyncTaskExecInterface {
 
   @Override
+  @TargetApi(Build.VERSION_CODES.HONEYCOMB)
   public <T> void execute(AsyncTask<T,?,?> task, T... args) {
-    task.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, args);
+	  if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+		  task.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, args);
+	  } else {
+		  task.execute(args);
+	  }
   }
-
 }
