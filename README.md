@@ -24,6 +24,7 @@ Especificaciones Técnicas
 --------------------------
 * Java
 * SQLite
+* Web Scraper en PHP.
 
 Licencia
 ---------
