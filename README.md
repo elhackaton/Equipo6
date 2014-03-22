@@ -1,15 +1,13 @@
-Proyecto de  Ejemplo
-====================
+E-free
+======
 
 Componentes del Equipo
 ---------------------
 
-(Máximo 4 integrantes por grupo)
-
-+ Nombre del integrante #1 (Desarrollo y Sistemas)
-+ Nombre del integrante #4 (Sistemas)
-+ Nombre del integrante #2 (Diseñador)
-+ Nombre del integrante #3 (Maquetadora)
++ Pedro Mármol Pérez (Contenidos)
++ Liles Hernández (Diseñadora)
++ Juanjo Vega Gea (Desarrollador)
++ José Juan Sánchez Hernández (Desarrolador)
 
 Descripción
 -------------
