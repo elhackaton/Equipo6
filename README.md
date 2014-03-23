@@ -1,6 +1,11 @@
 Carrot
 ======
 
+Prototipo
+---------
+
+La aplicación puede descargarse [aquí](https://github.com/elhackaton/Equipo6/blob/master/apk/Carrot.apk).
+
 Componentes del Equipo
 ---------------------
 
