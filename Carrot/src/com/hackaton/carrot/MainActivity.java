@@ -1,5 +1,7 @@
 package com.hackaton.carrot;
 
+import java.io.File;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -9,6 +11,7 @@ import android.widget.Button;
 import com.elhackaton.carrot.R;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
+import com.hackaton.carrot.db.CarrotDataBase;
 
 public class MainActivity extends CarrotActivity implements OnClickListener {
 
@@ -17,8 +20,21 @@ public class MainActivity extends CarrotActivity implements OnClickListener {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
+		createDirForDB();
+
 		Button scanButton = (Button) findViewById(R.id.activity_main_button_tutorial);
 		scanButton.setOnClickListener(this);
+	}
+
+	private void createDirForDB() {
+		try {
+			File dirDatabase = new File(CarrotDataBase.DATABASE_PATH);
+			if (!dirDatabase.exists()) {
+				dirDatabase.mkdir();
+			}
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
 	}
 
 	@Override
@@ -46,11 +62,11 @@ public class MainActivity extends CarrotActivity implements OnClickListener {
 			openProductDetails(contents, format);
 		}
 	}
-	
+
 	void openProductDetails(String contents, String format) {
-		Intent intent = new Intent(getApplicationContext(), ProductDataActivity.class);
+		Intent intent = new Intent(getApplicationContext(),
+				ProductDataActivity.class);
 		intent.putExtra(ProductDataActivity.PARAMETER_CONTENTS, contents);
-		intent.putExtra(ProductDataActivity.PARAMETER_FORMAT, format);
 		startActivity(intent);
 	}
 }

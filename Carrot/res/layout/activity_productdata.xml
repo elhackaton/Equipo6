@@ -16,11 +16,4 @@
         android:text="@string/activity_main_button_tutorial"
         android:textColor="@android:color/white" />
 
-    <TextView
-        android:id="@+id/activity_productdata_format_label"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/activity_main_button_tutorial"
-        android:textColor="@android:color/white" />
-
 </RelativeLayout>
