@@ -4,8 +4,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     
-    <fragment class="zxing.library.ZXingFragment"
+    <fragment
         android:id="@+id/scanner"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        class="zxing.library.ZXingFragment" />
+
 </LinearLayout>

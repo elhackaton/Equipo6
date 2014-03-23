@@ -53,8 +53,9 @@
                     android:anyDensity="true"/>
 
   <application
-               android:hardwareAccelerated="true"
+               
                android:allowBackup="true">
+               <!-- android:hardwareAccelerated="true" -->
     <!--
 
       We do not need this

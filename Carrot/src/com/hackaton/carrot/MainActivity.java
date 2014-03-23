@@ -8,15 +8,15 @@ import android.widget.Button;
 
 public class MainActivity extends CarrotActivity implements OnClickListener {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
 
-        Button scanButton = (Button) findViewById(R.id.scan_button);
-        scanButton.setOnClickListener(this);
-    }
-    
+		Button scanButton = (Button) findViewById(R.id.scan_button);
+		scanButton.setOnClickListener(this);
+	}
+
 	@Override
 	public void onClick(View view) {
 		switch (view.getId()) {
@@ -28,8 +28,8 @@ public class MainActivity extends CarrotActivity implements OnClickListener {
 		}
 	}
 
-    void scan() {
-        Intent intent = new Intent(getApplicationContext(), ScanActivity.class);
-        startActivity(intent);
-    }
+	void scan() {
+		Intent intent = new Intent(getApplicationContext(), ScanActivity.class);
+		startActivity(intent);
+	}
 }
