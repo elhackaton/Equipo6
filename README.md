@@ -1,4 +1,4 @@
-[Carrot](apk/Carrot.apk)
+Carrot ([apk](https://github.com/elhackaton/Equipo6/blob/master/apk/Carrot.apk))
 ======
 
 Componentes del Equipo
