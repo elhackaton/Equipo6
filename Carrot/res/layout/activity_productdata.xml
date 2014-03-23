@@ -14,13 +14,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:src="@drawable/coca_cola_zero"
         android:layout_marginTop="33dp"/>
-
-    <ImageView
-        android:id="@+id/activity_productdata_image_type"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true" />
 
     <Button android:id="@+id/activity_productdata_button_moreinfo"
 		android:background="@drawable/button_style"        
@@ -30,4 +25,14 @@
         android:textColor="@android:color/white"
         android:textSize="25sp"
         android:layout_alignParentBottom="true" />
+
+    <ImageView
+        android:id="@+id/activity_productdata_image_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/activity_productdata_button_moreinfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/nocivo" />
+
 </RelativeLayout>

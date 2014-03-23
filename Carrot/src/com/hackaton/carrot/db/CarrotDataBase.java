@@ -65,6 +65,20 @@ public class CarrotDataBase {
 		return -1;
 	}
 
+	public String getImageFromProduct(String id_producto) {
+		String query = "select image from productos where productos.id=?";
+
+		System.out.println("Query: " + query);
+
+		Cursor c = mDatabaseOpenHelper.rawQuery(query, new String[] { id_producto });
+
+		if (c.moveToFirst() == false) {
+			return null;
+		}
+
+		return c.getString(0);
+	}	
+	
 	private void copyDBfromAssets() {
 		try {
 			InputStream in = mContext.getAssets().open(DATABASE_NAME);

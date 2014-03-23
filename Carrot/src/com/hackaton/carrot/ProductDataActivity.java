@@ -6,7 +6,6 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.elhackaton.carrot.R;
 import com.hackaton.carrot.db.CarrotDataBase;
 
 public class ProductDataActivity extends CarrotActivity implements
@@ -29,14 +28,28 @@ public class ProductDataActivity extends CarrotActivity implements
 		mDatabase = new CarrotDataBase(getBaseContext());
 
 		int code = mDatabase.getDangerousFromProduct(contents);
-		showProductInfo(code);
+		String image = mDatabase.getImageFromProduct(contents);
+
+		showProductInfo(code, image);
 	}
 
-	void showProductInfo(int code) {
+	void showProductInfo(int code, String image) {
 		// Sets product image.
 		ImageView productImage = (ImageView) findViewById(R.id.activity_productdata_image_product);
-		//productImage.setImageResource(resId);
-
+		
+		int imgRes = -1;
+		if (image.compareTo("img01") == 0) {
+			imgRes = R.drawable.coca_cola_zero;
+		}
+		if (image.compareTo("img02") == 0) {
+			imgRes = R.drawable.pandorino;
+		}
+		if (image.compareTo("img03") == 0) {
+			imgRes = R.drawable.zumo;
+		}
+		
+		productImage.setImageResource(imgRes >= 0 ? imgRes : R.drawable.no_disponible);
+		
 		// Sets product type.
 		int typeRes = -1;
 
@@ -72,6 +85,6 @@ public class ProductDataActivity extends CarrotActivity implements
 	}
 
 	public void moreInfo() {
-
+		showMessage("TODO");
 	}
 }
