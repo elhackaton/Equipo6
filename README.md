@@ -51,11 +51,11 @@ Screenshots
 -----------
 
 <p align="center">
-  <img src="imgs/screenshot_0.png" />
+  <img src="imgs/screenshot_1.png" />
 </p>
 
 <p align="center">
-  <img src="imgs/screenshot_1.png" />
+  <img src="imgs/screenshot_0.png" />
 </p>
 
 <p align="center">
