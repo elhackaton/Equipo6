@@ -4,7 +4,7 @@ Carrot
 Prototipo
 ---------
 
-La aplicación puede descargarse [aquí](https://github.com/elhackaton/Equipo6/blob/master/apk/Carrot.apk).
+La aplicación puede descargarse desde [aquí](https://github.com/elhackaton/Equipo6/blob/master/apk/Carrot.apk).
 
 Componentes del Equipo
 ---------------------
