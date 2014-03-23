@@ -36,6 +36,10 @@ Es un prototipo funcional.
 * Mostrar información adicional de los productos consultados.
 * Incorporar nuevas fuentes de datos de aditivos y productos.
 
+<p align="center">
+  <img src="imgs/arquitectura.png" />
+</p>
+
 Especificaciones Técnicas
 --------------------------
 * Android.
