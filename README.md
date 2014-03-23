@@ -1,4 +1,4 @@
-Carrot ([apk](https://github.com/elhackaton/Equipo6/blob/master/apk/Carrot.apk))
+Carrot
 ======
 
 Componentes del Equipo
@@ -12,7 +12,7 @@ Componentes del Equipo
 Descripción
 -------------
 ### ¿Qué es?
-Una original aplicación para **comprobar** los **componentes químicos** de los alimentos, indicando mediante un código de colores (rojo, naranja y verde) si su consumo es recomendable, o por el contrario, peligroso.
+Una original [aplicación](https://github.com/elhackaton/Equipo6/blob/master/apk/Carrot.apk) para **comprobar** los **componentes químicos** de los alimentos, indicando mediante un código de colores (rojo, naranja y verde) si su consumo es recomendable, o por el contrario, peligroso.
 
 ### Dirigida a
 Consumidores interesados en el **grado de peligrosidad** de los aditivos, conservantes, colorantes, edulcorantes,...
