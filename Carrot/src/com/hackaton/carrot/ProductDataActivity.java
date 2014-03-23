@@ -37,18 +37,20 @@ public class ProductDataActivity extends CarrotActivity implements
 		// Sets product image.
 		ImageView productImage = (ImageView) findViewById(R.id.activity_productdata_image_product);
 		
-		int imgRes = -1;
-		if (image.compareTo("img01") == 0) {
-			imgRes = R.drawable.coca_cola_zero;
-		}
-		if (image.compareTo("img02") == 0) {
-			imgRes = R.drawable.pandorino;
-		}
-		if (image.compareTo("img03") == 0) {
-			imgRes = R.drawable.zumo;
+		int imgRes = R.drawable.no_disponible;
+		if (image != null) {
+			if (image.compareTo("img01") == 0) {
+				imgRes = R.drawable.coca_cola_zero;
+			}
+			if (image.compareTo("img02") == 0) {
+				imgRes = R.drawable.pandorino;
+			}
+			if (image.compareTo("img03") == 0) {
+				imgRes = R.drawable.zumo;
+			}			
 		}
 		
-		productImage.setImageResource(imgRes >= 0 ? imgRes : R.drawable.no_disponible);
+		productImage.setImageResource(imgRes);
 		
 		// Sets product type.
 		int typeRes = -1;
