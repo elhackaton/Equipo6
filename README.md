@@ -12,7 +12,7 @@ Componentes del Equipo
 * Pedro Mármol Pérez (Contenidos)
 * Liles Hernández (Diseñadora)
 * Juanjo Vega Gea (Desarrollador)
-* José Juan Sánchez Hernández (Desarrolador)
+* José Juan Sánchez Hernández (Desarrollador)
 
 Descripción
 -------------
